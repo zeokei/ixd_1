@@ -1,0 +1,125 @@
+/* Fonts */
+/* ------------------------------------------------- */
+
+@font-face  {
+font-family: 'Font Name';
+src: url('assets/font-name.eot');
+src: url('assets/font-name.eot?#iefix') format('embedded-opentype'),
+     url('assets/font-name.woff2') format('woff2'),
+     url('assets/font-name.woff') format('woff'),
+     url('assets/font-name.ttf') format('truetype');
+font-style: normal;
+font-weight: normal;
+}
+
+
+/* CSS Resets */
+/* ------------------------------------------------- */
+
+html  {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+body  {
+  margin: 0;
+  padding: 10px;
+  height: 100vh;   
+  width: 100vw; 
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: rgb(188, 144, 163);
+}
+
+*   { 
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+
+/* Overall Text Styles */
+/* ------------------------------------------------- */
+
+h1  {
+
+}
+
+h2  {
+
+}
+
+h3 {
+
+}
+
+p   {
+
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: blue;
+}
+
+/* selected link */
+a:active {
+  color: red;
+}
+
+/* Sample General Container and Element Styles */
+/* Edit according to your preferences  */
+/* ------------------------------------------------- */
+
+section {
+  width: 100%;
+  background-color: lightgray;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.assignment-block {
+  padding: 10px;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+img {
+  width: 100%;
+  min-width: 320px;
+  max-width: 800px;
+  height: auto;
+  display: block;
+}
+
+iframe {
+  border: none;
+}
+
+.pdf {
+  width: 100%;
+  min-width: 320px;
+  max-width: 800px;
+  height: auto;
+  aspect-ratio: 4 / 3;
+}
+
+
+/* Your specific Styles go here  */
+/* ------------------------------------------------- */
+
